@@ -10,6 +10,10 @@ Architecture:
 User -> FastAPI -> Agent loop -> Tools -> Ollama -> Response
 ```
 
+## Screenshot
+
+![MYSTVOID screenshot](docs/screenshots/mystvoid-screenshot-2026-03-13.png)
+
 ## Folder Structure
 
 ```text
