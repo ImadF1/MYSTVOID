@@ -69,6 +69,17 @@ local-code-agent/
 - expose richer code tools such as symbol grep, multi-file reads, git status, and run-tests
 - let you type and queue the next prompt while the current request is still running
 
+## Libraries Used
+
+- `fastapi` for the local HTTP API
+- `uvicorn` for serving the FastAPI app
+- `ollama` for talking to local Ollama models from Python
+- `pydantic` for request, response, and agent decision schemas
+- `rich` for the styled terminal interface
+- `prompt-toolkit` for transparent slash-command suggestions and completion
+- `ripgrep` (`rg`) for fast repository code search
+- standard library modules such as `pathlib`, `subprocess`, `threading`, and `json` for filesystem access, command execution, queueing, and persistence
+
 ## Tools
 
 - `read_file(path)`
